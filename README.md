@@ -14,24 +14,25 @@ It combines two input image streams at the pixel level, enabling high-throughput
 
 ---
 
-## 🛠 Directory Structure
-Pixel-to-Pixel-Image-Fusion-Using-FPGA/
-├── 3x3window.qpf # FPGA project file
-├── 3x3window.qsf # Project settings file
-├── Divider_Circuit.vhd # Example VHDL module
-├── base_interf.vhd # Base interface definition
-├── fifo_new.* # FIFO modules
-├── fifoa.* # Additional FIFO instance
-├── fifob.* # Additional FIFO instance
-├── image1.* # Example input image module
-├── image2.* # Example input image module
-├── std_dev.txt # Standard deviation test data
-├── std_dev.vhd # VHDL logic for standard deviation
-├── sync_clk2.* # Clock synchronization modules
-├── vga_lab_1.vhd # VGA output module
-├── window_3x3.* # 3x3 windowing logic modules
-└── GROUP REPORT.docx # Project documentation
+## 🧩 Architecture Overview
 
+- **Pixel-to-Pixel-Image-Fusion-Using-FPGA/**
+  - **.github/** *(if any CI/CD workflows exist)*
+  - **apps/** *(optional if you have simulation/test apps)*
+  - **Divider_Circuit.vhd** – Example VHDL module
+  - **base_interf.vhd** – Base interface definition
+  - **fifo_new.\*** – FIFO modules
+  - **fifoa.\*** – Additional FIFO instance
+  - **fifob.\*** – Additional FIFO instance
+  - **image1.\*** – Example input image module
+  - **image2.\*** – Example input image module
+  - **std_dev.txt** – Standard deviation test data
+  - **std_dev.vhd** – VHDL logic for standard deviation
+  - **sync_clk2.\*** – Clock synchronization modules
+  - **vga_lab_1.vhd** – VGA output module
+  - **window_3x3.\*** – 3x3 windowing logic modules
+  - **GROUP REPORT.docx** – Project report/documentation
+  - `README.md`
 
 
 ---
